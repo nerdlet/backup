@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dashboard || Shopping List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/dashboard.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-responsive.css" >
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!--Start of nav bar-->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background: #e74853;border-color: purple;margin-top: 2px;">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only"> </span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="dashboard.html" style="color: white;">Dashboard</a>
+            </div>
+
+            <!--start of nav collapse-->
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="file:///C:/Users/brenda/Desktop/Designs/index.html" style="color: white;"><span class="glyphicon glyphicon-comment"></span> Home</a></li>
+                     <li class=""><a href="#" style="color: white;"><span class="glyphicon glyphicon-comment"></span> Manage List</a></li>
+                </ul>
+                <div class="nav navbar-right" style="padding: 8px;">
+                    <a href="#" class="btn btn-danger" role="button">Logout</a>
+                </div>
+            </div>
+            <!--end of nav-collapse -->
+        </div>
+    </div>
+
+    <!--app logo is here -->
+    <div class="container" style="padding-top: 50px;">
+        <div class="row" >
+            <div class="logo">
+                <img src="img/shoppingtree.png" alt="Mountain View" style="display: inline-block;margin-left: 40%;margin-top: 10px;">
+            </div>
+        </div>
+    </div>
+     <!--end of app logo is here -->
+
+     <div class="container">
+        <div class="page-header" style="padding: 20px;">
+            <h3>List Name:Fashion<a href="savelistname.html" class="btn btn-md btn-success pull-right"><span class="glyphicon glyphicon-plus"></span> Add item </a></h3>
+        </div>
+    </div>
+
+     <div class ="container">
+            <div class ="row">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Item</th>
+                            <th>Price</th>
+                            <th>Updates</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>Jumper</td>
+                            <td>Ksh.200</td>
+                            <td>
+                                <button type="button" class="btn btn-primary  btn-xs"><span class="glyphicon glyphicon-remove-edit"></span> Update Item</button>
+                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete Item</button> 
+                        </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2</th>
+                            <td>High heels</td>
+                            <td>Ksh.1200</td>
+                            <td>
+                                <button type="button" class="btn btn-primary  btn-xs"><span class="glyphicon glyphicon-remove-edit"></span> Update Item</button>
+                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete Item</button>
+                        </td>
+                    
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Jacket</td>
+                            <td>Ksh.500</td>
+                            <td>
+                                <button type="button" class="btn btn-primary  btn-xs"><span class="glyphicon glyphicon-remove-edit"></span> Update Item</button>
+                                <button type="button" class="btn btn-danger btn-xs"><span class="glyphicon glyphicon-remove-circle"></span> Delete Item</button>
+                        </td>
+                    
+                        </tr>
+                    </tbody>
+                </table>   
+            </div>
+    </div>
+
+
+
+        <div class="footer-bottom" style="border-top: 1px solid #333333;padding: 40px 0;text-align: center;margin-top: 40px;height: 100px; margin-top: 40px;width: 50%;margin-left: 25%;">
+          <span><a href="index.html">Home </a>||© Brenda Bucha</span>
+            <div class="credits">Made in 2017</div>
+        </div>
+  
+    
+</body>
+
+</html>
